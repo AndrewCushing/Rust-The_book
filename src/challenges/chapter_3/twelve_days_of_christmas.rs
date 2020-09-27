@@ -1,6 +1,6 @@
 pub fn twelve_days () {
     let gifts: [String; 12] = [
-        "A partridge in a pear tree".to_string(),
+        String::from("A partridge in a pear tree"), // Another way to do the same thing it seems
         "Two turtle doves, and".to_string(),
         "Three french hens".to_string(),
         "Four calling birds".to_string(),
