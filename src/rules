@@ -1,0 +1,5 @@
+We can only have 1 mutable reference to a particular piece of data in a particular scope. This is to prevent data races.
+
+We cannot have mutable and immutable references to the same data in the same scope, although multiple immutable references are ok.
+Note that the scope of a reference ends when the variable is no longer used, not at the end of the actual scope.
+
