@@ -3,7 +3,8 @@ pub fn move_error() {
     let s1 = String::from("hello");
     let s2 = s1;
 
-    println!("{}, world!", s1);
+    // This will fail to compile if uncommented
+    // println!("{}, world!", s1);
 }
 
 pub fn deep_copy() {
