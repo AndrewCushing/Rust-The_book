@@ -1,0 +1,15 @@
+snake_case:
+    functions
+    methods
+    modules
+    local variables
+    struct fields and properties
+
+PascalCase:
+    struct (all types other than the primitive/simple types)
+    trait
+    generic type names (e.g. <T, U> or <Type>)
+    enum names
+    enum variants
+
+camelCase:
